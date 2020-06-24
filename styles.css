@@ -13,22 +13,47 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
-.sidebar{
+.sidebar{width: 120px;
+    height: 100%;
+    background-color: lightblue;
+    color:grey;
+    margin-left: 5px;
+    border-radius: 5px;
     /* pxالعرض هنا يجب ان يكون 120 */
 }
+.main1{ display: block;
+}
 
-.header{
+.all{ display: flex; 
+height: 100%;
+margin-top: 20px;}
+
+
+.header{ height: 200px;
+    background-color:#FFED90 ;
+    color: grey;
+    padding-left: 5px;
+    border-radius: 5px;
+
     /* pxالطول هنا يجب ان يكون 80 */
 }
 
 .main{
+    height: 623px;
+    background-color: #F6E6E7;
+    color:grey;
+    border-radius: 5px;
+
 
 }
-
+p{ text-align: center;}
 a{
     color: darkgray;
+    text-decoration: none;
+    padding: 5px;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
+.links:hover{ color: white;}
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
